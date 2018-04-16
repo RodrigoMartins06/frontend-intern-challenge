@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Url Encourter</title>
+	<script type="text/javascript" src="Js/Encurtador.js"></script>
+	<link rel="stylesheet" type="text/css" href="CSS/Encurtador.css">
+</head>
+<body>
+	<header>
+		<img id="chaordicLogo" src="imagens/chaordicLogo.png">
+	</header>
+	<div id="divCentro">
+		<div id="textoDivCentro">
+			<h1 id="titulo">Encurte seus Links.</h1>
+			<p id="paragrafo1">Links são longos. Encurte os links que você deseja compartilhar,<br>e acompanhe enquanto viajam através da internet.</p>
+		</div>
+		<div id="inputBotao">
+			<input type="text" id="inputLink" placeholder="Cole o seu link aqui">
+			<input type="text" id="inputShortLink">
+			<button id="botaoEncurtar" onclick="encurtar()">ENCURTAR</button>
+			<button id="botaoCopiar" onclick="copiar()" >COPIAR</button> 
+
+		</div>
+	</div>
+	<div>
+		<h1 id="top5">TOP 5</h1>
+		<table >
+        <tr>
+            <td class="topUrl"><a href="https://www.google.com" target="_blank">http://chr.dc/aUx71</a></td>
+            <td class="topClick">1922</td>
+  		</tr>
+        <tr>
+            <td class="topUrl"><a href="http://facebook.com" target="_blank">http://chr.dc/qy61p</td>
+            <td class="topClick">1519</td>
+        </tr>
+         <tr>
+            <td class="topUrl"><a href="http://chaordic.com.br" target="_blank">http://chr.dc/qy5k9</td>
+            <td class="topClick">1320</td>
+  		</tr>
+        <tr>
+            <td class="topUrl"><a href="http://globo.com" target="_blank">http://chr.dc/9dtr4</td>
+            <td class="topClick">1003</td>
+        </tr>
+        <tr>
+            <td class="topUrl"><a href="http://youtube.com" target="_blank">http://chr.dc/1w5tg</td>
+            <td class="topClick">997</td>
+        </tr>
+    	</table>
+	</div>
+	<div class="divContador">
+		<h1 id="hits">HITS</h1>
+		<label id="totalHits">32.526.42</label><br>
+		<p id="cliques">Cliques em links.</p>
+	</div>
+	<footer id="footer">
+		<div id="linkChaordic">
+			<a href="http://chaordic.com.br" target="_blank">chr.dc</a>
+		</div>
+		<a href="https://pt-br.facebook.com/chaordic.com.br/" target="_blank"><img id="facebook" align="right" src="imagens/facebookIcon.png"></a>
+		<a href="https://twitter.com/chaordic" target="_blank"><img id="twitter" align="right" src="imagens/twitterIcon.png"></a>
+	</footer>
+
+
+
+</body>
+</html>
